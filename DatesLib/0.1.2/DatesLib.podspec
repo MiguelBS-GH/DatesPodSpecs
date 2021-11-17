@@ -116,7 +116,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  spec.requires_arc = true
-  spec.swift_versions = "5.0"
+  spec.requires_arc = false
+  spec.swift_versions = "5.3"
 
 end
